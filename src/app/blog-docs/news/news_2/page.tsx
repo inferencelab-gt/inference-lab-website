@@ -117,18 +117,19 @@ export default function NewsHiringPage() {
                 <h2 className={dark ? "text-lg font-bold text-[#FFD700] mb-2" : "text-lg font-bold text-[#232733] mb-2"}>Theme 1</h2>
                 <h2 className={dark ? "text-lg font-bold text-[#FFD700] mb-2" : "text-lg font-bold text-[#232733] mb-2"}>Foundational AI for Computational Design, Simulation & Manufacturing</h2>
                 <p>
-                  We are building the next generation of engineering-native foundation models. AI systems that move beyond language and vision to reason about 3D shapes, 
+                  We are building the next generation of engineering-native multimodal foundation models. AI systems that move beyond language and vision to reason about 3D shapes, 
                   integrate physics, and drive design–simulation–manufacturing automation. 
-                  Imagine AI that not only describes a design but can create, simulate, and improve it at scale.
+                  We are aiming to create a new type of foundation models that not only generates text and image but can create, simulate, and optimize computational design at scale. 
+                  We are mainly interested in creating AI systems that generalize to a broad range of applications.
                 </p>&nbsp;
 
                 <p>
-                  As a PhD student, you will work at the intersection of <b>generative modeling, agents, physics-guided machine learning, computational design, and programming language theory</b>. 
-                  The goal is bold: to develop AI that unifies design and simulation into intelligent, autonomous engineering systems.
+                  As a PhD student, you will work at the intersection of <b>generative modeling, agentic framework, physics-guided AI, computational design, and programming language theory</b>. 
+                  You will make pioneering contribution to developing AI that unifies design and simulation into intelligent, autonomous engineering systems.
                 </p>&nbsp;
 
                 <p>
-                  Candidates with strong mathematical, computational, or AI backgrounds are encouraged to apply. 
+                  Candidates with strong mathematical, computational, or AI backgrounds are encouraged to apply. Strong programming background is a plus.
                   Most importantly, we seek students with the vision and maturity to tackle high-risk, high-reward problems that can redefine the future of engineering and AI.
                 </p>
               </section>
@@ -138,19 +139,28 @@ export default function NewsHiringPage() {
                 <h2 className={dark ? "text-lg font-bold text-[#FFD700] mb-2" : "text-lg font-bold text-[#232733] mb-2"}>Embodied manufacturing intelligence</h2>
 
                 <p>
-                  This position is part of our broader vision for an <em>Intelligent and Integrated Universal Manufacturing Operating System</em>, a platform that unites AI, CAD/CAM, PDM/PLM, robotics, and process control into a single intelligent ecosystem. On the robotics side, the challenge is clear: today’s robots excel at scripted pick-and-place, but they cannot yet <strong>understand and manipulate 3D geometry for precision manufacturing tasks</strong>.
+                  Here at Inference Lab we believe that embodiment is a core part of creating truly capable machine intelligence. 
+                  While today’s robots excel at scripted pick-and-place, they cannot yet <strong>understand and manipulate 3D 
+                  geometry for precision manufacturing tasks</strong>. We are aiming to work at the intersection of robot
+                  learning and 3D shape manipulation with high impact application in precision tasks. We are particularly interested in deploying our methods for 
+                  robotic manufacturing tasks to redefine the next generation of manufacturing workflow. This is critical because manufacturing alone 
+                  contributed to almost $2.91 trillion in value to the US economy in 2024. 
                 </p>&nbsp;
 
                 <p>
-                  The research will begin with AI- and RL-driven 3D printing systems, but the scope is much larger: enabling robots to grasp, orient, and operate on complex 3D parts, whether tightening a screw, assembling components, or adapting tools for subtractive and finishing processes. This is not just perception or control, our goal is to give robots a <strong>geometric understanding of objects and tasks</strong> so they can plan and execute with the same nuance as human experts.
+                  The research will begin with AI- and RL-driven sensor based 3D printing systems, but the scope is much larger: enabling robots to grasp, orient, and operate on complex 3D parts, whether tightening a screw, assembling components, or adapting tools for subtractive and finishing processes. 
+                  We like to think that our research is not just perception or control, but to give robots a <strong>geometric understanding of objects and tasks</strong> so they can plan and execute with the same nuance as human experts.
                 </p>&nbsp;
 
                 <p>
-                  You will work at the intersection of <strong>ROS, multimodal sensing, reinforcement learning, behavior cloning/imitation learning, geometric reasoning, teleoperation, and robotic manipulation</strong>. The long-term goal is bold: robots that integrate CAD-level knowledge with real-time perception, simulate possible outcomes, and then <em>act with precision and adaptability</em> in real-world manufacturing.
+                  You will work at the intersection of <strong>ROS, multimodal sensing, reinforcement learning, behavior cloning/imitation learning, geometric reasoning, teleoperation, and robotic manipulation</strong>. 
+                  In the long term, we will build robotic intelligence that integrate CAD-level knowledge with real-time perception, simulate possible outcomes, and then <em>act with precision and adaptability</em> in real-world 
+                  unstructured manufacturing tasks.
                 </p>&nbsp;
 
                 <p>
-                  Candidates with backgrounds in robotics, controls, computer vision, or AI/RL are encouraged to apply. This position offers the opportunity to go beyond conventional robotics and contribute to a new era of <strong>geometry-aware, autonomous manufacturing systems</strong>, the robotic backbone of a Universal Manufacturing OS.
+                  Candidates with backgrounds in robotics, controls, computer vision, or AI/RL are encouraged to apply. Experience with hardware is a plus. 
+                  You will have the opportunity to make pioneering contribution to a new and upcoming field of research in high impact application areas by building <strong>geometry-aware, autonomous systems</strong>, the robotic backbone of a Universal Manufacturing OS.
                 </p>
 
 
@@ -162,7 +172,7 @@ export default function NewsHiringPage() {
                 <p>
                   While I do not currently have funding for postdoctoral researchers or visiting students, this situation can always change! 
                   If you have your own funding through a fellowship, that's also nice! 
-                  So, if you have relevant background and you are stronly interested in our vision, please reach out. 
+                  So, if you have relevant background and you are strongly interested in our vision, please reach out. 
                   Perhaps, we can figure something out :) 
                 </p>
               </section>
@@ -180,7 +190,8 @@ export default function NewsHiringPage() {
                 <h2 className={dark ? "text-base font-bold text-[#FFD700] mb-2" : "text-base font-bold text-[#232733] mb-2"}>General Application Information</h2>
                 <p>
                   In general, I plan to hire one or more PhD students each year. The best way to ensure I see your application is to mention my name and your specific interests in your application materials. You are welcome to reach out directly, but please note that a response is not guaranteed due to the volume of inquiries. In any case, I will review all applications that mention my name and interests.<br /><br />
-                  If you do choose to reach out, please send a copy of your CV and a brief note about your research interests to Professor Alam (<a href="mailto:ferdous@gatech.edu" className={dark ? "text-[#FFD700] underline" : "text-[#232733] underline"}>ferdous@gatech.edu</a>). Please avoid generic terms, instead share what truly excites you and is unique to your personal interests and background.<br /><br />
+                  If you do choose to reach out, please send a copy of your CV and a brief note about your research interests to Professor Alam (<a href="mailto:ferdous@gatech.edu" className={dark ? "text-[#FFD700] underline" : "text-[#232733] underline"}>ferdous@gatech.edu</a>). Please avoid generic terms, instead share what truly excites you and is unique to your personal interests and background. 
+                  As a research lab, we value your uniqueness and passion above everything else.<br /><br />
                   <span className={dark ? "text-[#FFD700] font-semibold" : "text-[#232733] font-semibold"}>Please write your own thoughts when reaching out. An LLM-driven summary of our research vision is hardly attractive to read.</span>
                 </p>
               </section>
