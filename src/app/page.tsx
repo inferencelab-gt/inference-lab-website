@@ -371,7 +371,7 @@ export default function Page() {
                       className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 transition-all duration-200 group-hover:border-[#FFD700] group-hover:shadow-gold flex items-center justify-center bg-black/60 w-11 h-11 min-w-11 min-h-11 lg:w-20 lg:h-20 lg:min-w-20 lg:min-h-20"
                     >
                       <img
-                        src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+                        src="https://img.youtube.com/vi/d7HTo2a7uLc/maxresdefault.jpg"
                         alt="YouTube video thumbnail"
                         className="absolute inset-0 w-full h-full object-cover opacity-70 transition-transform duration-300 group-hover:scale-105 rounded-2xl lg:rounded-3xl"
                       />
