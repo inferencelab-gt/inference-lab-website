@@ -361,7 +361,7 @@ export default function Page() {
                 {/* Who We Are Section */}
                 <div className="flex-1 flex flex-row items-center justify-center gap-2 sm:gap-3 py-2 sm:py-4 px-2 sm:px-6">
                   <a
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    href="https://www.youtube.com/watch?v=d7HTo2a7uLc&list=PPSV"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex flex-row items-center gap-2"
