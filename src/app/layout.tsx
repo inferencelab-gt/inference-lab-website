@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { siteConfig } from "@/config/site.config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "inference@GT",
-  description: "Research lab at Georgia Tech",
+  title: siteConfig.siteTitle,
+  description: siteConfig.siteDescription,
   icons: {
-    icon: "/logo.png",
+    icon: siteConfig.favicon,
   },
 };
 
@@ -26,10 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ background: '#070a18', minHeight: '100vh' }}>
+    <html lang="en" style={{ background: siteConfig.colors.backgroundStart, minHeight: '100vh' }}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        style={{ background: '#070a18', minHeight: '100vh', color: '#fff' }}
+        style={{ background: siteConfig.colors.backgroundStart, minHeight: '100vh', color: '#fff' }}
       >
         {children}
       </body>

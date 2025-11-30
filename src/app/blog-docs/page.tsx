@@ -95,8 +95,13 @@ export default function BlogDocsPage() {
       <div className="w-full max-w-xs sm:max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-8">
         <Link href="/blog-docs/vision" className="w-full">
           <div
-            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px]"
-            style={{ color: cardText, borderColor: border, background: cardBg }}
+            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px] active:scale-[0.98] hover:scale-[1.02]"
+            style={{ 
+              color: cardText, 
+              borderColor: border, 
+              background: cardBg,
+              WebkitTapHighlightColor: 'transparent',
+            }}
             onMouseEnter={e => {
               e.currentTarget.style.boxShadow = dark
                 ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
@@ -104,9 +109,17 @@ export default function BlogDocsPage() {
               e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
             }}
             onMouseLeave={e => {
+              e.currentTarget.style.boxShadow = "";
+              e.currentTarget.style.borderColor = border;
+            }}
+            onTouchStart={e => {
               e.currentTarget.style.boxShadow = dark
-                ? "0 2px 16px 0 #0002"
-                : "0 2px 12px 0 #0001";
+                ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
+                : "0 4px 32px 0 #3B82F688, 0 2px 12px 0 #3B82F622";
+              e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
+            }}
+            onTouchEnd={e => {
+              e.currentTarget.style.boxShadow = "";
               e.currentTarget.style.borderColor = border;
             }}
           >
@@ -115,8 +128,13 @@ export default function BlogDocsPage() {
         </Link>
         <Link href="/blog-docs/philosophy" className="w-full">
           <div
-            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px]"
-            style={{ color: cardText, borderColor: border, background: cardBg }}
+            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px] active:scale-[0.98] hover:scale-[1.02]"
+            style={{ 
+              color: cardText, 
+              borderColor: border, 
+              background: cardBg,
+              WebkitTapHighlightColor: 'transparent',
+            }}
             onMouseEnter={e => {
               e.currentTarget.style.boxShadow = dark
                 ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
@@ -124,9 +142,17 @@ export default function BlogDocsPage() {
               e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
             }}
             onMouseLeave={e => {
+              e.currentTarget.style.boxShadow = "";
+              e.currentTarget.style.borderColor = border;
+            }}
+            onTouchStart={e => {
               e.currentTarget.style.boxShadow = dark
-                ? "0 2px 16px 0 #0002"
-                : "0 2px 12px 0 #0001";
+                ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
+                : "0 4px 32px 0 #3B82F688, 0 2px 12px 0 #3B82F622";
+              e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
+            }}
+            onTouchEnd={e => {
+              e.currentTarget.style.boxShadow = "";
               e.currentTarget.style.borderColor = border;
             }}
           >
@@ -135,8 +161,13 @@ export default function BlogDocsPage() {
         </Link>
         <Link href="/blog-docs/os" className="w-full">
           <div
-            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px]"
-            style={{ color: cardText, borderColor: border, background: cardBg }}
+            className="w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex items-center justify-center min-h-[56px] sm:min-h-[96px] px-3 py-2 sm:px-8 sm:py-6 transition-all duration-200 cursor-pointer font-semibold text-center text-[17px] active:scale-[0.98] hover:scale-[1.02]"
+            style={{ 
+              color: cardText, 
+              borderColor: border, 
+              background: cardBg,
+              WebkitTapHighlightColor: 'transparent',
+            }}
             onMouseEnter={e => {
               e.currentTarget.style.boxShadow = dark
                 ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
@@ -144,9 +175,17 @@ export default function BlogDocsPage() {
               e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
             }}
             onMouseLeave={e => {
+              e.currentTarget.style.boxShadow = "";
+              e.currentTarget.style.borderColor = border;
+            }}
+            onTouchStart={e => {
               e.currentTarget.style.boxShadow = dark
-                ? "0 2px 16px 0 #0002"
-                : "0 2px 12px 0 #0001";
+                ? "0 4px 32px 0 #FFD70088, 0 2px 16px 0 #0006"
+                : "0 4px 32px 0 #3B82F688, 0 2px 12px 0 #3B82F622";
+              e.currentTarget.style.borderColor = dark ? "#FFD700" : "#3B82F6";
+            }}
+            onTouchEnd={e => {
+              e.currentTarget.style.boxShadow = "";
               e.currentTarget.style.borderColor = border;
             }}
           >

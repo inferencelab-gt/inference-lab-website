@@ -15,7 +15,6 @@ const labImages = [
   "/group3.jpg"
 ];
 import { news } from "../data/news";
-import { newsImages } from "./newsImages";
 import { publications } from "../data/publications";
 import { featuredRepos } from "../data/featuredRepos";
 
@@ -293,7 +292,7 @@ export default function Page() {
               className="text-white mb-8 font-light tracking-tight"
             />
           </div>
-          <div className={"flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mb-8 sm:mb-10 justify-center " + styles["fade-in"] + " " + styles["fade-in-delay-2"]}>
+          <div className={"flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3 md:gap-4 mb-8 sm:mb-10 justify-center px-4 " + styles["fade-in"] + " " + styles["fade-in-delay-2"]}>
             {[
               { label: "Research", section: "research-section", gold: true },
               { label: "Team", section: "team-section" },
@@ -354,7 +353,7 @@ export default function Page() {
             })}
           </div>
           {/* Who we are and what we do: simple sentence and YouTube thumbnail, perfectly aligned row, no weird gap */}
-          <div className={"w-full max-w-2xl mx-auto flex flex-row items-center justify-center gap-5 sm:gap-10 mt-5 sm:mt-7 mb-6 sm:mb-8 px-1 sm:px-2 " + styles["fade-in"] + " " + styles["fade-in-delay-3"]}>
+          <div className={"w-full max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto flex flex-row items-center justify-center gap-5 sm:gap-8 lg:gap-10 mt-5 sm:mt-7 mb-6 sm:mb-8 px-4 " + styles["fade-in"] + " " + styles["fade-in-delay-3"]}>
             {/* Who We Are / What We Do: horizontally long card with split sections */}
             <div className="w-full max-w-xs sm:max-w-2xl mx-auto flex flex-row items-center justify-center">
             <div className="w-full max-w-xs sm:max-w-2xl bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 flex flex-row overflow-hidden min-h-[72px] sm:min-h-[96px]">
@@ -409,7 +408,7 @@ export default function Page() {
                     aria-label="Visit our blog or documentation"
                   >
                     <div
-                      className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 transition-all duration-200 group-hover:border-[#FFD700] group-hover:shadow-gold flex items-center justify-center bg-white/10 w-11 h-11 min-w-11 min-h-11 lg:w-20 lg:h-20 lg:min-w-20 lg:min-h-20"
+                      className={"relative rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 transition-all duration-200 group-hover:border-[#FFD700] group-hover:shadow-gold flex items-center justify-center bg-white/10 w-11 h-11 min-w-11 min-h-11 lg:w-20 lg:h-20 lg:min-w-20 lg:min-h-20 " + styles["lightbulb-box"]}
                     >
                       <img
                         src="/what_we_do_icon.svg"
@@ -418,7 +417,7 @@ export default function Page() {
                         style={{ display: 'block' }}
                       />
                     </div>
-                    <span className="text-xs sm:text-base font-semibold text-white tracking-tight drop-shadow-lg text-center ml-2 sm:ml-3">What We Do</span>
+                    <span className={"text-xs sm:text-base font-semibold text-white/80 tracking-tight drop-shadow-lg text-center ml-2 sm:ml-3 " + styles["lightbulb-text"]}>What We Do</span>
                   </a>
                 </div>
               </div>
@@ -426,9 +425,9 @@ export default function Page() {
           </div>
 
           {/* News & Fun Lab Pictures Section (two columns, same height, improved glass, 3 news, right-aligned photos) */}
-          <div className={"w-full max-w-3xl mx-auto flex flex-col sm:flex-row items-stretch justify-center gap-4 sm:gap-8 " + styles["fade-in"] + " " + styles["fade-in-delay-3"] + " sm:items-stretch items-center"}>
+          <div className={"w-full max-w-xl md:max-w-3xl lg:max-w-4xl mx-auto flex flex-col sm:flex-row items-center sm:items-stretch justify-center gap-4 sm:gap-6 lg:gap-8 px-4 " + styles["fade-in"] + " " + styles["fade-in-delay-3"]}>
             {/* Latest News Card with glassy news items inside */}
-            <div className={"bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl p-2 sm:p-4 flex flex-col min-h-[120px] sm:min-h-[200px] max-h-[120px] sm:max-h-[200px] max-w-xs sm:max-w-sm border border-white/40 w-full mx-auto " + styles["fade-in-pop"]} style={{flex: 1, animationDelay: '100ms'}}>
+            <div className={"bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl p-2 sm:p-4 flex flex-col min-h-[120px] sm:min-h-[180px] md:min-h-[200px] max-h-[140px] sm:max-h-[200px] md:max-h-[220px] w-full max-w-xs sm:max-w-sm md:max-w-md border border-white/40 mx-auto sm:mx-0 " + styles["fade-in-pop"]} style={{flex: 1, animationDelay: '100ms'}}>
               <h2 className="text-xs sm:text-lg font-semibold mb-1 sm:mb-2" style={{ color: '#FFD700' }}>Latest News</h2>
               <div className="flex flex-col flex-grow h-full gap-0.5 sm:gap-1">
                 {/* Use gap-y-2 for larger vertical gap between news items on desktop */}
@@ -491,7 +490,7 @@ export default function Page() {
               </div>
             </div>
             {/* Animated Lab Image Carousel (floating up and in) */}
-            <div className="flex flex-col items-center justify-center min-h-[120px] sm:min-h-[200px] max-h-[120px] sm:max-h-[200px] w-full max-w-xs sm:w-[340px] overflow-hidden relative mt-4 sm:mt-0 mx-auto" style={{flex: 1}}>
+            <div className="flex flex-col items-center justify-center min-h-[120px] sm:min-h-[180px] md:min-h-[200px] max-h-[140px] sm:max-h-[200px] md:max-h-[220px] w-full max-w-xs sm:max-w-sm md:max-w-md overflow-hidden relative mt-4 sm:mt-0 mx-auto sm:mx-0" style={{flex: 1}}>
             {/* Outgoing and incoming images animate together */}
             {(animState === 'out' && prevImgIdx !== null) && (
               <>
@@ -499,13 +498,13 @@ export default function Page() {
                 <img
                   src={labImages[prevImgIdx]}
                   alt="Lab Fun"
-                  className={"w-full max-w-xs sm:w-[340px] h-[120px] sm:h-[200px] object-cover rounded-2xl absolute left-0 top-0 z-20 " + styles.labImgOutUp}
+                  className={"w-full h-[120px] sm:h-[180px] md:h-[200px] object-cover rounded-2xl absolute left-0 top-0 z-20 " + styles.labImgOutUp}
                 />
                 {/* Incoming image slides in from below and fades in */}
                 <img
                   src={labImages[(prevImgIdx + 1) % labImages.length]}
                   alt="Lab Fun next"
-                  className={"w-full max-w-xs sm:w-[340px] h-[120px] sm:h-[200px] object-cover rounded-2xl absolute left-0 top-0 z-10 " + styles.labImgInUp}
+                  className={"w-full h-[120px] sm:h-[180px] md:h-[200px] object-cover rounded-2xl absolute left-0 top-0 z-10 " + styles.labImgInUp}
                 />
               </>
             )}
@@ -514,7 +513,7 @@ export default function Page() {
               <img
                 src={labImages[labImgIdx]}
                 alt="Lab Fun"
-                className="w-full max-w-xs sm:w-[340px] h-[120px] sm:h-[200px] object-cover rounded-2xl absolute left-0 top-0 transition-all duration-500 ease-in-out translate-y-0 opacity-100 z-20"
+                className="w-full h-[120px] sm:h-[180px] md:h-[200px] object-cover rounded-2xl absolute left-0 top-0 transition-all duration-500 ease-in-out translate-y-0 opacity-100 z-20"
               />
             )}
             </div>
@@ -542,7 +541,7 @@ export default function Page() {
           
           
           {/* Research Cards (data-driven) */}
-          <div className="flex flex-col sm:flex-row gap-6 w-full max-w-5xl justify-center items-center sm:items-stretch mx-auto">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 w-full max-w-4xl lg:max-w-5xl justify-center items-center sm:items-stretch mx-auto px-4">
             {research.map((area, idx) => (
               <div
                 key={"research-card-" + idx}
@@ -582,14 +581,16 @@ export default function Page() {
           <section id="team-section" className="w-full min-h-screen flex flex-col items-center pt-40 pb-10 px-4 scroll-mt-32 z-10 relative">
           <h2 className="text-3xl sm:text-6xl font-extrabold text-white mb-8 sm:mb-10">Team</h2>
 
-            <div className="w-full flex flex-col items-center mb-8">
-              <span className="text-base sm:text-lg text-white/90 text-center font-medium mb-1" style={{maxWidth: '600px', lineHeight: '1.5'}}>
-                We do not believe in a hierarchy and treat all ideas with same <span className="font-bold text-[#FFD700]">rigor.</span><br/>
+            <div className="w-full flex flex-col items-center mb-8 px-4">
+              <p className="text-sm sm:text-base md:text-lg text-white/90 text-center font-medium mb-1 max-w-[90vw] sm:max-w-xl md:max-w-2xl" style={{lineHeight: '1.6'}}>
+                We do not believe in a hierarchy and treat all ideas with same <span className="font-bold text-[#FFD700]">rigor.</span>
+              </p>
+              <p className="text-sm sm:text-base md:text-lg text-white/90 text-center font-medium max-w-[90vw] sm:max-w-xl md:max-w-2xl" style={{lineHeight: '1.6'}}>
                 Ferdous just makes the executive call when democracy fails <span role="img" aria-label="smile">😄</span>
-              </span>
+              </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-5 gap-6 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6 mb-6">
               {team.map((member, idx) => (
                 <div
                   key={member.name + '-' + teamPopKey}
