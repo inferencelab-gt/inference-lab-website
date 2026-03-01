@@ -23,55 +23,22 @@ export const team: TeamMember[] = [
     ]
   },
     {
-    name: "John Doe 1",
+    name: "Shubh Raval",
     role: "Member of Technical Staff",
-    image: "/person_2.jpg",
+    image: "/shubh.jpeg",
     bio: "Focuses on deep learning and computer vision.",
     email: "john.doe@gatech.edu",
     links: [
-      { label: "Google Scholar", url: "" },
-      { label: "LinkedIn", url: "" },
-      { label: "GitHub", url: "" },
-      { label: "Personal Website", url: "" }
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/shubh-raval?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
     ]
   }, 
   {
-    name: "Jane Doe 2",
+    name: "Shailen Amin",
     role: "Member of Technical Staff",
-    image: "/person_3.jpg",
+    image: "/shailen.jpeg",
     bio: "Focuses on deep learning and computer vision.",
     email: "john.doe@gatech.edu",
     links: [
-      { label: "Google Scholar", url: "" },
-      { label: "LinkedIn", url: "" },
-      { label: "GitHub", url: "" },
-      { label: "Personal Website", url: "" }
-    ]
-  }, 
-  {
-  name: "John Doe 3",
-  role: "Member of Technical Staff",
-  image: "/person_3.jpg",
-  bio: "Focuses on deep learning and computer vision.",
-  email: "john.doe@gatech.edu",
-  links: [
-    { label: "Google Scholar", url: "https://scholar.google.com/" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/" },
-    { label: "GitHub", url: "https://github.com/" },
-    { label: "Personal Website", url: "https://janedoe.com" }
-  ]
-}, 
-  {
-    name: "Jane Doe 4",
-    role: "Member of Technical Staff",
-    image: "/person_3.jpg",
-    bio: "Focuses on deep learning and computer vision.",
-    email: "john.doe@gatech.edu",
-    links: [
-      { label: "Google Scholar", url: "https://scholar.google.com/" },
-      { label: "LinkedIn", url: "https://www.linkedin.com/" },
-      { label: "GitHub", url: "https://github.com/" },
-      { label: "Personal Website", url: "https://janedoe.com" }
     ]
   }, 
 ];
