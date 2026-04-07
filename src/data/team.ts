@@ -32,13 +32,27 @@ export const team: TeamMember[] = [
       { label: "LinkedIn", url: "https://www.linkedin.com/in/shubh-raval?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
     ]
   }, 
+  
+  {
+    name: "David Feingold",
+    role: "UG member of Technical Staff",
+    image: "/david.png",
+    bio: "Focuses on robot learning for precision tasks.",
+    email: "dfeingold3@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/david-feingold-429x/" },
+    ]
+  }, 
+
   {
     name: "Shailen Amin",
-    role: "Member of Technical Staff",
+    role: "UG Member of Technical Staff",
     image: "/shailen.jpeg",
     bio: "Focuses on deep learning and computer vision.",
     email: "john.doe@gatech.edu",
     links: [
     ]
   }, 
+
+
 ];
