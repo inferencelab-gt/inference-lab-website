@@ -109,6 +109,28 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
               {para}
             </p>
           ))}
+          {item.callout && (
+            <aside
+              className={
+                'mt-7 rounded-2xl border p-5 sm:p-6 shadow-lg ' +
+                (dark
+                  ? 'border-[#FFD700]/60 bg-[#FFD700]/10 text-white'
+                  : 'border-amber-300 bg-amber-50 text-[#232733]')
+              }
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-2xl leading-none" aria-hidden="true">✦</span>
+                <div>
+                  <h2 className={dark ? 'mb-2 font-bold text-[#FFD700]' : 'mb-2 font-bold text-amber-700'}>
+                    Interested in joining us?
+                  </h2>
+                  <p className="text-[15px] sm:text-[17px] leading-[1.7]">
+                    {item.callout}
+                  </p>
+                </div>
+              </div>
+            </aside>
+          )}
           <div
             className={
               'w-full mt-8 border-b-2 rounded opacity-15 ' +
