@@ -62,6 +62,16 @@ export const team: TeamMember[] = [
     ]
   }, 
   {
+    name: "Kyle Tennison",
+    role: "UG Member of Technical Staff",
+    image: "/kyle-ug.png",
+    email: "sraval9@gatech.edu",
+    links: [
+      { label: "GitHub", url: "https://github.com/kyle-tennison/" },
+      { label: "Personal Website", url: "https://kyletennison.com/" }
+    ]
+  },
+  {
     name: "Nivedita Rajendran",
     role: "UG Member of Technical Staff",
     image: "/nivi-ug.jpeg",
