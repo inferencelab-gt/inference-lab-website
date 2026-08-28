@@ -22,37 +22,82 @@ export const team: TeamMember[] = [
       { label: "Personal Website", url: "https://ferdous-alam.github.io/" }
     ]
   },
-    {
+  {
+    name: "Do-Gon Kim",
+    role: "Member of Technical Staff",
+    image: "/do-gon-phd.png",
+    email: "dkim3220@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/do-gon-kim/" },
+    ]
+  }, 
+  {
+    name: "Rafi Ahmed Sagor",
+    role: "Member of Technical Staff",
+    image: "/rafi-phd.JPEG",
+    email: "rsagor3@gatech.edu",
+    links: [
+        {label: "GitHub", url: "https://github.com/rafisagor21" },
+        {label: "LinkedIn", url: "https://www.linkedin.com/in/jacob-lee-973a76198/" },
+      ]
+  },  
+  {
+    name: "Jacob W Lee",
+    role: "Member of Technical Staff",
+    image: "/jaocb-phd.png",
+    email: "jlee4680@gatech.edu",
+    links: [
+      {label: "GitHub", url: "https://github.com/Jacob-W-Lee" },
+      {label: "LinkedIn", url: "https://www.linkedin.com/in/jacob-lee-973a76198/"},
+      {label: "Personal Website", url: "https://jacob-w-lee.github.io/" }
+    ]
+  },  
+  {
     name: "Shubh Raval",
     role: "Member of Technical Staff",
     image: "/shubh.jpeg",
-    bio: "Focuses on deep learning and computer vision.",
-    email: "john.doe@gatech.edu",
+    email: "sraval9@gatech.edu",
     links: [
       { label: "LinkedIn", url: "https://www.linkedin.com/in/shubh-raval?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
     ]
   }, 
-  
   {
-    name: "David Feingold",
-    role: "UG member of Technical Staff",
-    image: "/david.png",
-    bio: "Focuses on robot learning for precision tasks.",
-    email: "dfeingold3@gatech.edu",
-    links: [
-      { label: "LinkedIn", url: "https://www.linkedin.com/in/david-feingold-429x/" },
-    ]
-  }, 
-
-  {
-    name: "Shailen Amin",
+    name: "Nivedita Rajendran",
     role: "UG Member of Technical Staff",
-    image: "/shailen.jpeg",
-    bio: "Focuses on deep learning and computer vision.",
-    email: "john.doe@gatech.edu",
+    image: "/nivi-ug.jpeg",
+    email: "nrajendran35@gatech.edu",
     links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/nivi-rajendran/" },
     ]
   }, 
 
-
+    {
+    name: "Maitreyi Sarkar",
+    role: "UG Member of Technical Staff",
+    image: "/maitreyi-ug.jpeg",
+    email: "msarkar34@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/maitreyi-sarkar-3467ab298?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
+      { label: "GitHub", url: "https://github.com/maitreyis15" },
+    ]
+  }, 
+  {
+    name: "Kevin D Ghobrial",
+    role: "UG Member of Technical Staff",
+    image: "/kevin-ug.jpg",
+    email: "kghobrial3@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/kevinghobrial/" },
+      { label: "GitHub", url: "https://github.com/Kevin-Ghobrial" },
+    ]
+  }, 
+  {
+    name: "Connell J Bartling",
+    role: "UG Member of Technical Staff",
+    image: "/connell-ug.JPG",
+    email: "cbartling3@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/connell-bartling/" },
+    ]
+  }, 
 ];

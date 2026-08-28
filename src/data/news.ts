@@ -10,12 +10,19 @@ export interface NewsItem {
 
 export const news: NewsItem[] = [
   {
-    title: "Inference Lab is hiring",
-    date: "11-13-2025",
-    description: "We are looking for multiple PhD students for fall 2026. We are looking for students with a strong passion and interest in AI-driven research, and a desire to work on cutting-edge problems in artificial intelligence, machine learning, and their applications to engineering.",
+    title: "Inference Lab welcomes new students",
+    date: "08-28-2026",
+    description: "We are welcoming our new PhD, MS and undergrad students. Do-Gon, Rafi and Jacob will be the first cohort of PhD students at Inference lab.",
     image: "/group1.jpg",
   link: "/blog-docs/news/news_2/",
     focus: true // Highlight this news item
+  },
+  {
+    title: "We got the Woodruff Innovation Nexus award",
+    date: "07-15-2026",
+    description: "Congratulations to the team for our latest publication on scalable inference models.",
+    image: "/group2.jpg",
+    link: "#", 
   },
   {
     title: "Two best paper awards at IDETC 2025",
