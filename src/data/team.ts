@@ -12,7 +12,7 @@ export const team: TeamMember[] = [
   {
     name: "Ferdous Alam",
     role: "Member of Technical Staff",
-    image: "/person_1.jpg",
+    image: "/ferdous-pi.jpg",
     bio: "Research interests in AI and ML.",
     email: "jane.doe@gatech.edu",
     links: [
@@ -25,10 +25,12 @@ export const team: TeamMember[] = [
   {
     name: "Do-Gon Kim",
     role: "Member of Technical Staff",
-    image: "/do-gon-phd.png",
+    image: "/do-gon-phd.jpeg",
     email: "dkim3220@gatech.edu",
     links: [
-      { label: "LinkedIn", url: "https://www.linkedin.com/in/do-gon-kim/" },
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/do-gon-kim?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
+      { label: "GitHub", url: "https://github.com/Do-Gon" },
+      { label: "Personal Website", url: "https://do-gon.github.io" }
     ]
   }, 
   {
@@ -61,6 +63,15 @@ export const team: TeamMember[] = [
       { label: "LinkedIn", url: "https://www.linkedin.com/in/shubh-raval?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
     ]
   }, 
+  {
+    name: "Berk Eroglu",
+    role: "Member of Technical Staff",
+    image: "/berk-ms.JPG",
+    email: "beroglu3@gatech.edu",
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/berk-eroglu-5610602a7" },
+    ]
+  },
   {
     name: "Kyle Tennison",
     role: "UG Member of Technical Staff",
